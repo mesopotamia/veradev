@@ -15,7 +15,7 @@ export default function Header() {
                   priority
                   src={veradevLogo}
                   alt="Follow us on Twitter"
-                  width={200}
+                  width={100}
               />
             </Link>
           </div>
