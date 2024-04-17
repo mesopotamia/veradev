@@ -1,5 +1,6 @@
 import VideoThumb from '@/public/images/hero-image-01.jpg'
 import ModalVideo from '@/components/modal-video'
+import {BackgroundBeams} from "@/components/ui/background-beams";
 
 export default function Hero() {
   return (
@@ -21,7 +22,6 @@ export default function Hero() {
 
         {/* Hero content */}
         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
-
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">Landing template for startups</h1>
