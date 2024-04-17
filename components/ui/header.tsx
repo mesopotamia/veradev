@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import MobileMenu from './mobile-menu'
-import veradevLogo from "../../public/images/veradev_logo.svg";
-import Image from 'next/image';
+import Logo from "@/components/ui/logo";
+
 export default function Header() {
   return (
     <header className="absolute w-full z-30">
@@ -11,12 +11,7 @@ export default function Header() {
           <div className="shrink-0 mr-4">
             {/* Logo */}
             <Link href="/" className="block" aria-label="Cruip">
-              <Image
-                  priority
-                  src={veradevLogo}
-                  alt="Follow us on Twitter"
-                  width={100}
-              />
+              <Logo width={100}/>
             </Link>
           </div>
 
